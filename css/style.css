@@ -1,1 +1,258 @@
-@import './base/_normalize.css';
+@import "./normalize.css";
+
+/* ---------header---------- */
+.header {
+	width: 100%;
+}
+
+.header-container {
+	margin-right: 21px;
+	max-width: 1152px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+
+.header-logo {
+	text-decoration: none;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+
+	color: #1a1a1a;
+}
+
+.nav-header {
+	list-style: none;
+	display: flex;
+	gap: 48px;
+	justify-content: space-between;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 21px;
+
+	color: #1a1a1a;
+}
+
+.header__menu:hover {
+	transform: 0.2s;
+	transition: rotate(-5deg);
+	transition: 0.6s ease-out;
+	color: greenyellow;
+}
+
+.nav-header > li > a {
+	text-decoration: none;
+}
+
+.nav-header__2 {
+	display: flex;
+	justify-content: space-between;
+	gap: 48px;
+	list-style: none;
+	font-family: DM Sans;
+	font-size: 14px;
+	line-height: 18px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.nav-header__2 > li > a {
+	text-decoration: none;
+}
+.header__login:hover {
+	transform: 0.2s;
+	transition: rotate(-5deg);
+	transition: 0.6s ease-out;
+	color: greenyellow;
+}
+
+.nav-btn__header {
+	background-color: #066f14;
+
+	padding: 12px 16px;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+}
+
+.nav-btn__header:hover {
+	transform: 0.2s;
+	transition: rotate(-5deg);
+	transition: 0.6s ease-out;
+	text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+/* ----------hero---------- */
+
+.hero {
+	width: 100%;
+}
+.hero-container {
+	max-width: 1152px;
+	position: relative;
+	/* margin: 0 auto; */
+}
+
+.text-hero__container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 144px;
+	margin-top: 107.58px;
+	width: 548px;
+}
+
+.zagolovok-hero {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 92px;
+	/* or 128% */
+
+	color: #1a1a1a;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 24px 0px;
+}
+
+.button-hero {
+	position: static;
+	width: 160px;
+	height: 55px;
+	left: 0px;
+	top: 118px;
+
+	background: #066f14;
+	border-radius: 4px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 40px 0px;
+
+	/* ----text---- */
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-hero:hover {
+	transform: 0.2s;
+	transition: rotate(-5deg);
+	transition: 0.6s ease-out;
+	text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+.lorem-hero {
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	/* or 26px */
+
+	color: #4a4a4a;
+	margin-bottom: 40px;
+}
+
+.number-hero {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+
+	color: #001b04;
+	gap: 112px;
+}
+
+.listok-hero {
+	position: absolute;
+	padding-left: 100%;
+
+	background: url(klipartz.png);
+}
+
+.pictures {
+	position: absolute;
+	top: 0;
+	right: -350px;
+	z-index: -1px;
+}
+
+.collection-container {
+	width: 1152px;
+	margin: 0 auto;
+	margin-top: 154px;
+	display: flex;
+}
+
+.text-colleciton {
+	width: 389px;
+	display: flex;
+	flex-direction: column;
+}
+
+.big-text__collection {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 49px;
+
+	color: #1a1a1a;
+}
+
+.mini-text__collection {
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+
+	color: #4a4a4a;
+	margin-top: 37px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 9px;
+}
+
+.collection-pictures {
+	display: flex;
+	gap: 24px;
+	margin-left: 62px;
+}
+
+
