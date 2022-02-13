@@ -1,1 +1,214 @@
-@import './base/_normalize.css';
+@import './normalize.css';
+
+.container__follow {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+.title__instagram {
+  text-align: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  
+}
+.subtitle {
+  text-align: center;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  
+  color: #4a4a4a;
+}
+.first__section {
+  width: 544px;
+  margin: 0 auto;
+}
+.photo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #5a5a5a;
+}
+
+.naviagtion-footer {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  padding-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.logo-follow {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo1:hover{
+  width: 241px;
+  height: 251px;
+  transform: 0.2s;
+  border-radius: 10px;
+  transform: rotate(-5deg);
+  transition: 0.6s ease-out;
+}
+.photo2:hover{
+  width: 241px;
+  height: 251px;
+  border-radius: 10px;
+  transform: rotate(5deg);
+  transition: 0.6s ease-out;
+}
+.photo3:hover{
+  width: 241px;
+  height: 251px;
+  border-radius: 10px;
+  transform: rotate(-5deg);
+  transition: 0.6s ease-out;
+}
+.photo4:hover{
+  width: 241px;
+  height: 251px;
+  border-radius: 10px;
+  transform: rotate(5deg);
+  transition: 0.6s ease-out;
+}
+.photo5:hover{
+  width: 241px;
+  height: 251px;
+  border-radius: 10px;
+  transform: rotate(-5deg);
+  transition: 0.6s ease-out;
+}
+
+
+
+
+.footer-container__footer{
+  display: flex;
+  padding-top: 30px;
+  max-width: 1152px;
+  margin: 0 auto;
+
+}
+
+.container__plant {
+  max-width: 306px;
+}
+.plant-footer {
+  margin-bottom: 24px;
+  gap: 24px;
+  list-style: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #1a1a1a;
+}
+
+
+.lorem-footer {
+  list-style: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  padding-top: 24px;
+  color: #5a5a5a;
+}
+
+.logo-footer {
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 22px;
+}
+.card1{
+  max-width: 306px;
+  margin: auto;
+  padding-left: 201px;
+  display: flex;
+}
+.nav{
+  flex-wrap: 16px;
+}
+.text-footer{
+  padding-top: 16px;
+}
+.text-footer{
+  color: black;
+}
+
+.text-footer:hover > a{
+  transition: 0.2s;
+  color: black;
+}
+
+.footer__text-text{
+  display: flex;
+  flex-direction: row;
+}
+.facebook-png{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #EDFFDD;
+}
+.facebook-png:hover{
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background-color:rgb(144, 230, 122);
+}
+
+.twitter-png{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #EDFFDD;
+}
+.twitter-png:hover{
+  width: 48px;
+  height: 48px;
+  background-color:rgb(144, 230, 122);
+  border-radius: 10px;
+  transition: 0.2s;
+
+}
+.inst-png{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #EDFFDD;
+}
+.inst-png:hover{
+  width: 48px;
+  height: 48px;
+  background-color: rgb(144, 230, 122);
+  border-radius: 10px;
+  transition: 0.2s;
+
+}
