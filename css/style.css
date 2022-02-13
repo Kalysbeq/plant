@@ -1,1 +1,169 @@
 @import './base/_normalize.css';
+
+.container__commets {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+.first__block_commets {
+  width: 494px;
+  min-height: 204px;
+}
+.first__block_commets > h2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+
+  color: #1a1a1a;
+}
+.first__block_commets > p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #4a4a4a;
+}
+.card {
+  width: 600px;
+  min-height: 204px;
+  background-color: #066f14;
+  position: relative;
+}
+.photo__user {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.first__block {
+  display: flex;
+}
+.about__user {
+  /* padding-top: 10px; */
+  padding-left: 10px;
+}
+.svg__user {
+  position: absolute;
+  padding-left: 533px;
+  padding-top: 20px;
+}
+.name__user {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.user__work {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #d9d9d9;
+}
+.text__user {
+  padding-left: 30px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  padding-bottom: 50px;
+
+  color: #ececec;
+}
+.photo__girl {
+  position: absolute;
+  padding-left: 550px;
+}
+.subscribe {
+  margin-top: 207px;
+}
+.container__subscribe {
+  max-width: 1152px;
+  margin: 0 auto;
+}
+.block__subscribe {
+  max-width: 1040px;
+  min-height: 320px;
+  background: #dfffe3;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: relative;
+
+  /* display: flex;
+  align-items: center; */
+}
+.img__flower {
+  position: absolute;
+  bottom: 0;
+  right: 24px;
+}
+.title__subscribe_first {
+  padding-top: 60px;
+  padding-left: 59px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+
+  color: #1a1a1a;
+}
+.text__subscribe__first {
+  max-width: 458px;
+  padding-left: 59px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #4a4a4a;
+}
+.form__subsribe{
+  display: flex;
+  margin-left: 59px;
+  align-items: center;
+  position: relative;
+
+}
+.input__form{
+  width: 451px;
+  border: none;
+  height: 56px;
+}
+.button__form{
+  width: 98px;
+  position: absolute;
+  height: 40px;
+   margin-left: 350px;
+   background: #066F14;
+border-radius: 4px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #FEFEFE;
+
+   transition: 0.2s;
+}
+.button__form:hover{
+  background: #133c19;
+}
+.button__form:hover{
+  background: #9dd8a6;
+}
