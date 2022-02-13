@@ -1,1 +1,192 @@
 @import './base/_normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.about__container_about{
+  max-width: 1152px;
+  margin: 0 auto;
+  display: flex;
+}
+.about__container_about__greenphon{
+  position: relative;
+}
+.about__container_about__tree{
+  position: absolute;
+  left: 250px;
+  top: 30px;
+}
+.about__container_about__text{
+  display: flex;
+  flex-direction: column;
+}
+.about__container_about__About_Us{
+  color: green;
+  margin-left: 150px;
+  top: 0px;
+}
+.about__container_about__continue{
+  margin-top: 12px;
+  margin-left: 150px;
+  font-family: 'Nunito', sans-serif;
+}
+.about__container_about__lorem{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4A4A4A;
+  margin-left: 150px;
+  margin-top: 24px;
+}
+.about__container_about__lorem2{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4A4A4A;
+  margin-left: 150px;
+  margin-top: 16px;
+}
+.about__container_about__btn{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-left: 150px;
+  padding: 16px 32px;
+  max-width: 191px;
+  background: #066F14;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 19px;
+}
+.about__container_about__btn:hover{
+  background: #00500b;
+  transition: 0.2s;
+}
+.product__container_product{
+  max-width: 1152px;
+  margin: 0 auto;
+  padding-top: 144px;
+}
+.product__container_product__best{
+  display: flex;
+  flex-direction: column;
+}
+  .product__container_product__our{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #1A1A1A;
+    margin: 0 auto;
+  }
+  .product__container_product__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+.product__container_product__link{
+  list-style-type: none;
+  padding-top: 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #4A4A4A;
+}
+.product__container_product__link:hover{
+  transition: 0.2s;
+  color: #066F14;
+  font-size: 20px;
+}
+.product__container_product__card{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.product__container_product__card__card1{
+  width: 270px;
+  height: 283px;
+  background: #EAF2E5;
+}
+.product__container_product__card__card2{
+  width: 270px;
+  height: 283px;
+  background: #F0EBE6;
+}
+.product__container_product__card__card3{
+  width: 270px;
+  height: 283px;
+  background: #E2ECE4;
+}
+.product__container_product__card__card4{
+  width: 270px;
+  height: 283px;
+  background: #E7EEED;
+}
+.card1__img1{
+  padding-left: 65px;
+  padding-top: 10px;
+}
+.product__card1__product-text{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1A1A1A;
+  padding-top: 6px;
+  padding-left: 32px;
+}
+.product__card1__product-asterisks{
+  padding-top: 10px;
+  padding-left: 32px;
+}
+.card1__money{
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1A1A1A;
+
+  padding-top: 13px;
+  padding-left: 32px;
+}
+.product__container_product__card__btn{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+.btn__btn1{
+  border: none;
+  background: #066F14;
+  border-radius: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  }
+  .btn__btn1:hover{
+    transition: 0.2s;
+    background: #01530c;
+  }
